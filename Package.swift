@@ -15,7 +15,6 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "MailCore2",
-                      url: "https://downloads.maddux.cloud/mailcore2-apple-xcframework/MailCore2-2020-09-24.xcframework.zip",
-                      checksum: "c3479968c758094165fb0b4de5ca7dd9f8aafac423388c51406c447f69a1b853")
+                      url: "http://d.etpan.org/mailcore2-deps/mailcore2-ios/mailcore2-ios-12.zip")
     ]
 )
